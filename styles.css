@@ -1,5 +1,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    margin:0;
 }
 
 .top-body {
@@ -10,9 +11,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 48px;
-    padding-right: 48px;
+    justify-content: space-around;
 }
 
 .header-logo {
@@ -49,6 +48,13 @@ body {
 
 #sign-up {
     width: 80px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    border-style: ridge;
+    padding: 0;
+    color: white;
+    
 }
 
 .eye-sub {
@@ -88,10 +94,51 @@ body {
 }
 
 .cards img {
-    height: 36px;
-    width: 72px;
+    height: 72px;
+    width: 144px;
     border-color: #3882f6;
     border-style:ridge;
     border-radius: 6px;
     border-width:2px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.footer1 .footer1-1 {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.signup-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+
+.big-signup {
+    font-size: 20px;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
 }
